@@ -25,61 +25,52 @@ int main() {
     int command;
     
     do{
-    cout << "Enter a command from 0 to 9): " << endl;
+    cout << "Enter a command from 0 to 9): " << endl  
+        << "\t or" << endl << "Enter - 1 to exit." << endl << endl;
     cin >> command;
     
     switch (command)
     {
     case 0:
-        cout << "Command 0 not implemented" << endl <<
-        "\t or" << endl << "Enter - 1 to exit." << endl << endl;
+        cout << "Command 0 was Successfully Executed." << endl;
         break;
     case 1:
-        cout << "Command 1 not implemented" << endl <<
-            "\t or" << endl << "Enter - 1 to exit." << endl << endl;
+        cout << "Command 1 was Successfully Executed." << endl;
         break;
     case 2:
-        cout << "Command 2 not implemented" << endl <<
-            "\t or" << endl << "Enter - 1 to exit." << endl << endl;
+        cout << "Command 2 was Successfully Executed." << endl;
         break;
     case 3:
-        cout << "Command 3 not implemented" << endl <<
-            "\t or" << endl << "Enter - 1 to exit." << endl << endl;
+        cout << "Command 3 was Successfully Executed." << endl;
         break;
     case 4:
-        cout << "Command 4 not implemented" << endl <<
-            "\t or" << endl << "Enter - 1 to exit." << endl << endl;
+        cout << "Command 4 was Successfully Executed." << endl;
         break;
     case 5:
-        cout << "Command 5 not implemented" << endl <<
-            "\t or" << endl << "Enter - 1 to exit." << endl << endl;
+        cout << "Command 5 was Successfully Executed." << endl;
         break;
     case 6:
-        cout << "Command 6 not implemented" << endl <<
-            "\t or" << endl << "Enter - 1 to exit." << endl << endl;
+        cout << "Command 6 was Successfully Executed." << endl;
         break;
     case 7:
-        cout << "Command 7 not implemented" << endl <<
-            "\t or" << endl << "Enter - 1 to exit." << endl << endl;
+        cout << "Command 7 was Successfully Executed." << endl;
         break;
     case 8:
-        cout << "Command 8 not implemented" << endl <<
-            "\t or" << endl << "Enter - 1 to exit." << endl << endl;
+        cout << "Command 8 was Successfully Executed." << endl;
         break;
     case 9:
-        cout << "Command 9 not implemented" << endl <<
-            "\t or" << endl << "Enter - 1 to exit." << endl << endl;
+        cout << "Command 9 was Successfully Executed." << endl;
         break;
 
     //If command doesn't match any case
     default:
-        cout << "Error! This is an Illegal input" << endl;
+        cout << "Error! This Illegal Input was was not Implemented" << endl;
         cout <<  "\t or" << endl;
         cout << "Enter -1 to exit." << endl << endl;
         break;
 
     case -1:
-        cout << "Exiting Program." << endl;
+        cout << "Exiting Program. Have a Nice Day." << endl;
         break;
 
     }//End Switch Case
@@ -90,3 +81,4 @@ int main() {
     system("pause");
    
 }//End Main()
+
